@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/momo",
     "maintainers": [
       {
@@ -18,623 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "momo",
     "name": "Momo",
-    "aliases": [
-      {
-        "name": "Missouri Monster",
-        "region": "Missouri, USA",
-        "meaning": "Full name from which 'Momo' is derived"
-      },
-      {
-        "name": "Louisiana Monster",
-        "region": "Louisiana, Missouri",
-        "meaning": "Named after the town where sightings occurred"
-      }
-    ],
+    "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Humanoid",
+    "subcategory": "| Description | Status |",
     "tags": [
-      "humanoid",
-      "bipedal",
-      "bigfoot-like",
-      "midwestern",
-      "north-america",
-      "1970s",
-      "historical",
-      "small-town-legend"
+      "folklore",
+      "mythology"
     ],
-    "status": "historical",
+    "status": "documented",
     "description": {
-      "summary": "A large, hairy, bipedal humanoid creature reported in Louisiana, Missouri during the early 1970s. Similar in description to Bigfoot, with distinctive black fur, glowing orange eyes, and a terrible smell. The phenomenon reached its peak during July 1972.",
-      "full": "Momo, short for Missouri Monster, is a Bigfoot-like creature reported primarily in and around Louisiana, Missouri during 1971-1972. Standing 6-7 feet tall and covered in dark, matted fur, Momo gained notoriety through a series of sightings in the summer of 1972. The creature was described as having glowing orange eyes and emitting a powerful, offensive odor. One particularly notable sighting involved the creature carrying what appeared to be a dead dog. While the active sighting period was brief, Momo became a significant part of local legend and small-town cryptid lore, representing one of the Midwest's most famous Bigfoot-type reports."
+      "summary": "Momo, short for Missouri Monster, is a Bigfoot-like creature reported primarily in and around Louisiana, Missouri during 1971-1972.",
+      "full": "Momo, short for Missouri Monster, is a Bigfoot-like creature reported primarily in and around Louisiana, Missouri during 1971-1972. Standing 6-7 feet tall and covered in dark, matted fur, Momo gained notoriety through a series of sightings in the summer of 1972. The creature was described as having glowing orange eyes and emitting a powerful, offensive odor. One particularly notable sighting involved the creature carrying what appeared to be a dead dog. While the active sighting period was brief, Momo became a significant part of local legend and small-town cryptid lore. Momo represents one of the Midwest's most famous Bigfoot-type reports, exemplifying the localized \\\"monster flap\\\" phenomenon common in 1970s American cryptozoology."
     },
     "etymology": {
-      "origin": "Abbreviated form of 'Missouri Monster', coined during the 1972 sightings near Louisiana, Missouri.",
-      "meaning": "Missouri Monster - regional variant of Bigfoot phenomenon",
-      "first_use": "1972"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Humanoid",
-      "subtype": "Bigfoot-variant",
-      "variant": "Midwestern United States"
+      "type": "| Description | Status |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "bigfoot",
-        "name": "Bigfoot",
-        "relationship": "regional_variant",
-        "description": "Momo considered a Midwestern variant of the broader Bigfoot phenomenon"
-      },
-      {
-        "id": "fouke-monster",
-        "name": "Fouke Monster",
-        "relationship": "similar",
-        "description": "Arkansas creature with similar descriptions and time period"
-      },
-      {
-        "id": "grassman",
-        "name": "Grassman",
-        "relationship": "similar",
-        "description": "Ohio's Bigfoot variant with similar characteristics"
-      },
-      {
-        "id": "skunk-ape",
-        "name": "Skunk Ape",
-        "relationship": "similar",
-        "description": "Florida variant, also noted for strong odor"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 1.8,
-        "max": 2.1,
-        "unit": "meters",
-        "confidence": "medium"
-      },
-      "weight": {
-        "min": 135,
-        "max": 180,
-        "unit": "kilograms",
-        "confidence": "low"
-      },
-      "coloration": [
-        "black",
-        "dark brown",
-        "matted dark fur"
-      ],
-      "features": [
-        {
-          "feature": "Body hair",
-          "description": "Covered in dark, matted, shaggy hair",
-          "frequency": "always"
-        },
-        {
-          "feature": "Eyes",
-          "description": "Glowing orange or red eyes, particularly notable at night",
-          "frequency": "common"
-        },
-        {
-          "feature": "Odor",
-          "description": "Extremely strong, offensive smell described as overwhelming",
-          "frequency": "always"
-        },
-        {
-          "feature": "Build",
-          "description": "Large, broad-shouldered, muscular humanoid form",
-          "frequency": "always"
-        },
-        {
-          "feature": "Head",
-          "description": "Large head with no visible neck, similar to Bigfoot descriptions",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Bipedal humanoid with ape-like features. Heavily built with broad shoulders and muscular limbs. Covered entirely in dark, matted fur. Head appears to sit directly on shoulders with little to no visible neck."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Stealth",
-        "description": "Ability to appear and disappear quickly in wooded areas",
-        "frequency": "common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Strength",
-        "description": "Reported to carry large animals (dead dog in one sighting)",
-        "frequency": "occasional",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Intimidation",
-        "description": "Use of terrible smell and appearance to drive away witnesses",
-        "frequency": "common",
-        "evidence_level": "reported"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "diurnal and nocturnal",
-      "disposition": "neutral to hostile",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "wooded areas",
-        "riverbanks",
-        "residential periphery",
-        "rural farmland edges"
-      ],
-      "diet": "Unknown, possibly carnivorous based on dead dog sighting",
-      "patterns": [
-        "Brief appearance pattern (1971-1972)",
-        "Concentrated in small geographic area",
-        "Proximity to human habitation",
-        "Daytime and nighttime activity"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Concentrated in and around Louisiana, Missouri, with occasional reports from surrounding Pike County area. Very limited geographic distribution compared to broader Bigfoot phenomenon.",
-      "continents": ["North America"],
-      "countries": ["United States"],
-      "regions": [
-        "Northeast Missouri",
-        "Pike County, Missouri",
-        "Louisiana, Missouri vicinity"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Louisiana, Missouri",
-        "location": {
-          "description": "Small town in Pike County, Missouri",
-          "country": "United States",
-          "region": "Missouri",
-          "coordinates": {
-            "latitude": 39.4489,
-            "longitude": -91.0515
-          }
-        },
-        "sighting_count": 15,
-        "peak_period": "July 1972",
-        "notes": "Epicenter of Momo sightings, particularly around River Road and Marzolf Hill areas"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1971",
+        "date": "Unknown",
         "circa": true,
-        "source": "Early reports from Pike County area"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "July 1972",
-          "description": "Intense two-week period of sightings that brought national media attention"
-        }
-      ],
-      "last_recorded": {
-        "date": "1972",
-        "circa": true,
-        "source": "Sightings ceased by end of 1972"
-      },
-      "seasonal_patterns": "Most sightings occurred during summer months (July-August 1972)"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Part of broader American Bigfoot phenomenon of the 1970s. Influenced by earlier cryptid reports including the 1958 California Bigfoot discoveries and the 1971 Fouke Monster sightings in Arkansas.",
-      "earliest_accounts": "Initial reports began circulating in Pike County in 1971, though exact details are sparse.",
-      "folklore_connections": "Connected to Midwestern monster traditions and the nationwide Bigfoot craze of the late 1960s-early 1970s."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1971",
-        "event": "Early Momo reports",
-        "significance": "First scattered reports in Pike County area",
-        "source": "Local accounts"
-      },
-      {
-        "date": "1972-07-11",
-        "event": "Harrison children sighting",
-        "significance": "Three children (Doris, Terry, and Wally Harrison) report seeing creature carrying dead dog near their home",
-        "source": "Contemporary newspaper reports"
-      },
-      {
-        "date": "1972-07-21",
-        "event": "Edgar Harrison sighting",
-        "significance": "Father reports seeing creature on his property, finds mysterious tracks",
-        "source": "Local police reports and press"
-      },
-      {
-        "date": "1972-07-25",
-        "event": "Richard Murray sighting",
-        "significance": "Local man reports encounter, describes terrible smell",
-        "source": "News reports"
-      },
-      {
-        "date": "1972-07-26",
-        "event": "National media coverage",
-        "significance": "Story picked up by Associated Press, brought national attention",
-        "source": "AP wire services"
-      },
-      {
-        "date": "1972-07-28",
-        "event": "Mass search organized",
-        "significance": "Large volunteer search party organized, no creature found",
-        "source": "Local newspapers"
-      },
-      {
-        "date": "1972-08",
-        "event": "Sightings decline",
-        "significance": "Reports taper off and cease by end of summer",
-        "source": "News archives"
-      },
-      {
-        "date": "1973",
-        "event": "Momo becomes local legend",
-        "significance": "Story solidifies as part of Louisiana, Missouri folklore",
-        "source": "Local historical accounts"
-      }
-    ],
-    "modern_era": "Momo remains a point of local pride and tourism interest in Louisiana, Missouri. While active sightings ceased in 1972, the legend endures through books, local festivals, and cryptozoology discussions. The case represents a classic example of a localized cryptid flap concentrated in time and place."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 15,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 12,
-      "debunked": 0,
-      "date_range": {
-        "earliest": "1971",
-        "latest": "1972"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "momo-sighting-1972-harrison",
-        "name": "Harrison Children Sighting",
-        "date": {
-          "value": "1972-07-11",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Near Marzolf Hill, Louisiana, Missouri",
-          "country": "United States",
-          "region": "Missouri",
-          "locality": "Louisiana, Pike County",
-          "coordinates": {
-            "latitude": 39.4489,
-            "longitude": -91.0515,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 3,
-          "types": ["Children"],
-          "credibility_factors": ["Multiple witnesses", "Consistent testimony", "Parental corroboration"]
-        },
-        "description": "Doris Harrison (8), Terry Harrison (5), and Wally Harrison (5) reported seeing a large, dark, hair-covered creature standing near their family's home on Marzolf Hill. The creature was reportedly carrying what appeared to be a dead dog. The children ran inside screaming, and their father Edgar Harrison went to investigate but found no trace of the creature, only an unusual smell lingering in the area.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Good",
-          "time_of_day": "Afternoon",
-          "duration": "Brief (seconds)"
-        },
-        "evidence": [
-          "Three child witnesses",
-          "Unusual smell reported",
-          "Contemporary newspaper coverage"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Multiple witnesses",
-            "Children's consistent description",
-            "Physical evidence (smell)",
-            "No obvious motive for fabrication",
-            "Age of witnesses raises questions"
-          ],
-          "notes": "Most famous Momo sighting. The children's terror appeared genuine, and the story remained consistent over time."
-        },
-        "sources": [
-          "Associated Press reports, July 1972",
-          "Hannibal Courier-Post coverage",
-          "Coleman, L. (2003). Bigfoot! The True Story of Apes in America"
-        ],
-        "featured": true
-      },
-      {
-        "id": "momo-sighting-1972-edgar-harrison",
-        "name": "Edgar Harrison Property Sighting",
-        "date": {
-          "value": "1972-07-21",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Harrison property, Louisiana, Missouri",
-          "country": "United States",
-          "region": "Missouri",
-          "locality": "Louisiana, Pike County",
-          "coordinates": {
-            "latitude": 39.4489,
-            "longitude": -91.0515,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Adult male"],
-          "credibility_factors": ["Property owner", "Reported to police", "Physical evidence"]
-        },
-        "description": "Edgar Harrison, father of the children who reported the July 11 sighting, claimed to have seen the creature on his property. He reported a large, dark figure moving through the wooded area near his home. After the sighting, he discovered unusual three-toed tracks and an area of disturbed vegetation. The characteristic foul odor was again reported.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Good to moderate",
-          "time_of_day": "Evening",
-          "duration": "Brief"
-        },
-        "evidence": [
-          "Unusual three-toed tracks",
-          "Disturbed vegetation",
-          "Foul odor",
-          "Police report filed"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Adult witness",
-            "Police involvement",
-            "Physical traces",
-            "Follow-up to children's sighting",
-            "Tracks described as unusual but not definitively proven"
-          ],
-          "notes": "The three-toed tracks were considered unusual by investigators but were never cast or scientifically analyzed."
-        },
-        "sources": [
-          "Pike County Sheriff's Department records",
-          "Local newspaper accounts",
-          "Blackburn, L. (2012). The Beast of Boggy Creek"
-        ],
-        "featured": true
-      },
-      {
-        "id": "momo-sighting-1972-murray",
-        "name": "Richard Murray Encounter",
-        "date": {
-          "value": "1972-07-25",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "River Road area, Louisiana, Missouri",
-          "country": "United States",
-          "region": "Missouri",
-          "locality": "Louisiana, Pike County",
-          "coordinates": {
-            "latitude": 39.4489,
-            "longitude": -91.0515,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Adult male"],
-          "credibility_factors": ["Independent witness", "Consistent with other reports"]
-        },
-        "description": "Richard Murray reported encountering a large, dark, hair-covered creature while driving on River Road. He described overwhelming foul odor that penetrated his vehicle. The creature was standing near the roadside and appeared startled by the vehicle, quickly moving into the woods. Murray described glowing orange eyes when his headlights struck the creature.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Night, headlight illumination",
-          "time_of_day": "Night",
-          "duration": "Seconds"
-        },
-        "evidence": [
-          "Witness testimony",
-          "Description consistent with other reports",
-          "Independent corroboration of foul odor"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Single witness",
-            "Night sighting",
-            "Consistent with established pattern",
-            "No physical evidence collected",
-            "Brief duration"
-          ],
-          "notes": "Murray's report came during the peak of Momo mania, adding to the community concern."
-        },
-        "sources": [
-          "Contemporary news reports",
-          "Coleman, L. & Huyghe, P. (1999). The Field Guide to Bigfoot and Other Mystery Primates"
-        ],
-        "featured": false
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "id": "momo-evidence-tracks",
-        "type": "footprints",
-        "name": "Three-toed tracks",
-        "date": "1972-07-21",
-        "description": "Unusual three-toed tracks found on Harrison property. Described as large and unlike known animal tracks in the area.",
-        "location": "Harrison property, Louisiana, Missouri",
-        "status": "unverified",
-        "analysis": "Tracks were documented but never professionally cast or analyzed. Description suggests possible hoax or misidentification.",
-        "source": "Edgar Harrison report, local police"
-      },
-      {
-        "id": "momo-evidence-odor",
-        "type": "olfactory",
-        "name": "Foul odor reports",
-        "date": "Various (July-August 1972)",
-        "description": "Multiple witnesses reported extremely strong, offensive smell associated with sightings",
-        "status": "reported",
-        "analysis": "Consistent across multiple independent reports, similar to other Bigfoot-type creatures",
-        "source": "Multiple witness accounts"
-      }
-    ],
+    "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": [
-      {
-        "id": "momo-evidence-disturbed-vegetation",
-        "type": "environmental disturbance",
-        "name": "Disturbed vegetation",
-        "description": "Areas of trampled brush and broken branches reported near sighting locations",
-        "status": "reported",
-        "analysis": "Could be attributed to multiple causes including known wildlife or human activity"
-      }
-    ]
+    "trace": []
   },
-
   "theories": {
     "paranormal": [],
-    "scientific": [
-      {
-        "name": "Misidentified bear",
-        "description": "Sightings represent misidentification of black bears, particularly when standing upright",
-        "proponents": ["Local wildlife authorities"],
-        "evidence_cited": ["Black bears present in Missouri", "Bears can walk bipedally", "Size and coloration match"]
-      },
-      {
-        "name": "Regional Bigfoot variant",
-        "description": "Genuine cryptid representing Midwestern variant of broader Bigfoot phenomenon",
-        "proponents": ["Loren Coleman", "Cryptozoology researchers"],
-        "evidence_cited": ["Multiple independent witnesses", "Consistent descriptions", "Similar to other regional variants"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Mass hysteria",
-        "description": "Community-wide panic following initial children's report, leading to copycat sightings",
-        "proponents": ["Skeptical investigators"],
-        "evidence_cited": ["Brief, concentrated time period", "Followed 1971 Fouke Monster publicity", "Sightings ceased abruptly"]
-      },
-      {
-        "name": "Hoax",
-        "description": "Deliberate fabrication, possibly initiated by children's imagination",
-        "proponents": ["Local skeptics"],
-        "evidence_cited": ["No physical evidence", "Three-toed tracks considered suspicious", "No subsequent sightings after media attention faded"]
-      },
-      {
-        "name": "Cultural contagion",
-        "description": "Inspired by contemporary Bigfoot and monster media coverage (Fouke Monster film released 1972)",
-        "proponents": ["Folklorists"],
-        "evidence_cited": ["Timing coincides with 'Legend of Boggy Creek' release", "Peak of 1970s monster craze", "Similar reports nationwide"]
-      }
-    ]
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Local Louisiana, Missouri legend",
-        "Part of Pike County folklore"
-      ],
-      "stories": [
-        "The Harrison children's encounter",
-        "The creature carrying the dead dog",
-        "The failed search party of 1972"
-      ],
-      "beliefs": "Momo remains a source of local pride and identity for Louisiana, Missouri. The story is embraced as part of small-town Americana and cryptid lore."
-    },
-    "indigenous": {
-      "cultures": [],
-      "significance": "No significant Indigenous cultural connections documented for this specific phenomenon",
-      "sensitivity_note": "N/A",
-      "respect_guidelines": "N/A"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Coleman, L. (2003). Bigfoot! The True Story of Apes in America (includes Momo chapter)",
-        "Blackburn, L. (2012). The Beast of Boggy Creek (discusses Momo in context)",
-        "Newton, M. (2005). Encyclopedia of Cryptozoology (Momo entry)"
-      ],
-      "film_tv": [
-        "Various Bigfoot documentaries featuring Momo segment",
-        "Local television coverage (1972)"
-      ],
+      "literature": [],
+      "film_tv": [],
       "games": [],
-      "other": [
-        "Local tourism and town identity",
-        "Occasional cryptid festivals and commemorations",
-        "Local historical society preservation of story"
-      ]
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Loren Coleman",
-        "affiliation": "International Cryptozoology Museum",
-        "contribution": "Documented Momo case in context of American Bigfoot phenomena",
-        "period": "1970s-present"
-      },
-      {
-        "name": "Mark A. Hall",
-        "affiliation": "Independent cryptozoologist",
-        "contribution": "Investigated Momo reports in historical context",
-        "period": "1970s-1980s"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Bigfoot Field Researchers Organization (BFRO)",
-        "url": "https://www.bfro.net",
-        "focus": "Maintains records of Momo sightings in national database"
-      },
-      {
-        "name": "Louisiana, Missouri Historical Society",
-        "url": null,
-        "focus": "Preserves local history including Momo legend"
-      }
-    ],
-    "ongoing_studies": "No active research. Momo is considered a historical cryptid case with no recent sightings."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "coleman-2003",
-      "type": "book",
-      "title": "Bigfoot! The True Story of Apes in America",
-      "authors": ["Loren Coleman"],
-      "publication": "Paraview Pocket Books",
-      "date": "2003",
-      "isbn": "978-0743469753"
-    },
-    {
-      "id": "blackburn-2012",
-      "type": "book",
-      "title": "The Beast of Boggy Creek: The True Story of the Fouke Monster",
-      "authors": ["Lyle Blackburn"],
-      "publication": "Anomalist Books",
-      "date": "2012",
-      "isbn": "978-1933665542"
-    },
-    {
-      "id": "ap-1972",
-      "type": "news",
-      "title": "Missouri Monster Sightings",
-      "authors": ["Associated Press"],
-      "publication": "Various newspapers",
-      "date": "1972-07"
-    }
-  ]
+  "sources": []
 }
