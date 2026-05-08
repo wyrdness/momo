@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/momo",
     "maintainers": [
       {
@@ -16,111 +16,221 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "momo",
-    "name": "Momo",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "| Description | Status |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Momo the Missouri Monster",
+    "aliases": [
+      { "name": "Momo", "region": "Louisiana, Missouri, USA" },
+      { "name": "Missouri Monster", "region": "Missouri, USA" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Bigfoot-type humanoid cryptid",
+    "tags": [
+      "humanoid",
+      "bipedal",
+      "missouri",
+      "1972",
+      "monster-flap",
+      "bigfoot-type"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "Momo, short for Missouri Monster, is a Bigfoot-like creature reported primarily in and around Louisiana, Missouri during 1971-1972.",
-      "full": "Momo, short for Missouri Monster, is a Bigfoot-like creature reported primarily in and around Louisiana, Missouri during 1971-1972. Standing 6-7 feet tall and covered in dark, matted fur, Momo gained notoriety through a series of sightings in the summer of 1972. The creature was described as having glowing orange eyes and emitting a powerful, offensive odor. One particularly notable sighting involved the creature carrying what appeared to be a dead dog. While the active sighting period was brief, Momo became a significant part of local legend and small-town cryptid lore. Momo represents one of the Midwest's most famous Bigfoot-type reports, exemplifying the localized \\\"monster flap\\\" phenomenon common in 1970s American cryptozoology."
+      "summary": "Momo (the Missouri Monster) is a Bigfoot-type cryptid reportedly seen near Louisiana, Missouri in the early 1970s, most famously during a brief 'monster flap' in July 1972.",
+      "full": "Momo, an abbreviation of Missouri Monster, is a regional Bigfoot-type cryptid associated with the area around Louisiana, Missouri, in northeastern Missouri (Pike County) along the Mississippi River. Witnesses described a large, hair-covered, bipedal creature roughly seven feet tall, with a 'pumpkin-shaped' head, glowing orange eyes, and a strong putrid smell. The most widely publicised sightings occurred in July 1972, including a 11 July 1972 incident in which two young brothers playing in their backyard and their older sister, who saw the creature from the kitchen window, reported a hairy creature carrying a dead dog. Local fire chief and city council member Richard Allan Murray was among other witnesses. A roughly 20-person posse searched the area but found no specimen. The active sighting period was brief and Momo became a fixture of regional folklore and 1970s American 'monster flap' culture, including a Six Flags theme-park ride (1973-1994) and a 2019 docudrama film."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American journalistic shorthand: 'Mo.' for Missouri + 'Mo.' for Monster, contracted to 'Momo'.",
+      "meaning": "Missouri Monster.",
+      "first_use": "1972, in U.S. press coverage of the Louisiana, Missouri sightings."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Humanoid",
+      "subtype": "Bigfoot-type hominid cryptid",
+      "variant": "Midwestern United States"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "bigfoot", "name": "Bigfoot", "relationship": "regional_variant", "description": "Continental Bigfoot tradition of which Momo is a regional variant" },
+      { "id": "skunk-ape", "name": "Skunk Ape", "relationship": "regional_variant", "description": "Southeastern US Bigfoot variant noted for foul odor" },
+      { "id": "fouke-monster", "name": "Fouke Monster", "relationship": "similar", "description": "Arkansas Bigfoot-type creature of comparable era" },
+      { "id": "grafton-monster", "name": "Grafton Monster", "relationship": "similar", "description": "West Virginia hominid sighting cluster" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.0, "max": 2.3, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown / black hair"],
+      "features": [
+        { "feature": "Body hair", "description": "Covered in dark, matted hair", "frequency": "always" },
+        { "feature": "Bipedal locomotion", "description": "Walks upright on two legs", "frequency": "always" },
+        { "feature": "Pumpkin-shaped head", "description": "Witnesses repeatedly described a rounded, 'pumpkin-shaped' head set close to the shoulders", "frequency": "common" },
+        { "feature": "Glowing orange eyes", "description": "Bright orange-glowing eyes reported, especially in low light", "frequency": "common" },
+        { "feature": "Foul odor", "description": "Strong putrid smell associated with close encounters", "frequency": "common" }
+      ],
+      "morphology": "A roughly seven-foot, dark-haired, bipedal hominid with a pumpkin-shaped head, glowing orange eyes and a strong odor."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Carrying prey", "description": "Reported to have been seen carrying a dead dog during the July 1972 incident", "frequency": "rare", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["wooded river bluffs", "Mississippi River bottomlands", "fields and farmland edges near Louisiana, Missouri"],
+      "patterns": [
+        "Brief, geographically clustered 'monster flap' rather than long-running activity",
+        "Reported close to homes and farms"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Highly localised to the area around Louisiana, Missouri, in Pike County, Missouri, along the Mississippi River.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Missouri",
+        "Pike County",
+        "Louisiana, Missouri"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Louisiana, Missouri",
+        "location": {
+          "description": "Town of Louisiana, Missouri, on the Mississippi River",
+          "country": "United States",
+          "region": "Missouri",
+          "coordinates": { "latitude": 39.4486, "longitude": -91.0518 }
+        },
+        "peak_period": "July 1972",
+        "notes": "Site of the main 'Momo flap'"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1945",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Earliest sighting referenced in regional accounts (per Wikipedia)"
+      },
+      "peak_activity_periods": [
+        { "period": "July 1972", "description": "Main Momo flap; multiple eyewitness reports, posse search, and national press coverage" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Part of the American 'monster flap' tradition of localised Bigfoot-type cryptid sightings in the late 1960s and 1970s.",
+      "earliest_accounts": "Earlier (e.g. 1945) regional sightings are referenced in cryptozoological accounts; the Momo phenomenon is centred on the 1972 sightings.",
+      "folklore_connections": "Connected to Bigfoot, Fouke Monster, Skunk Ape, and other 1970s regional Bigfoot-type 'monster flaps'."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1945", "event": "Earliest sighting referenced in regional accounts of the Louisiana, Missouri area", "significance": "Pre-flap baseline (per Wikipedia)", "source": "Wikipedia: Momo the Monster" },
+      { "date": "1972-07-11", "event": "Sighting at the home of a Louisiana, Missouri family: an older sister sees the creature from the kitchen window while her two young brothers play in the backyard; the creature is reported to be carrying a dead dog", "significance": "Best-known incident of the Momo flap", "source": "Wikipedia: Momo the Monster" },
+      { "date": "1972-07", "event": "Local fire department chief and city council member Richard Allan Murray reports a sighting near a creek bed", "significance": "Notable secondary witness during the flap", "source": "Wikipedia: Momo the Monster" },
+      { "date": "1972-07", "event": "An approximately 20-person posse organises to search for the creature; no specimen recovered", "significance": "Community response to the flap", "source": "Wikipedia: Momo the Monster" },
+      { "date": "1973", "event": "Six Flags St. Louis opens a Momo-themed ride", "significance": "Pop-culture canonisation of the local cryptid", "source": "Wikipedia: Momo the Monster" },
+      { "date": "2019", "event": "Docudrama film 'Momo: The Missouri Monster' released", "significance": "Modern revival of the Momo legend", "source": "Wikipedia: Momo the Monster" }
+    ],
+    "modern_era": "Momo today is primarily a piece of regional Missouri folklore and a touchstone of 1970s 'monster flap' history. Louisiana, Missouri continues to celebrate the Momo legend through occasional festivals and tourism, and cryptozoological writers regularly include Momo in surveys of regional Bigfoot variants."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1945", "latest": "1972" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "momo-sighting-1972-07-11",
+        "name": "Louisiana, Missouri backyard sighting",
+        "date": { "value": "1972-07-11", "precision": "exact" },
+        "location": {
+          "description": "Residential property in Louisiana, Missouri",
+          "country": "United States",
+          "region": "Missouri",
+          "locality": "Louisiana, Pike County",
+          "coordinates": { "latitude": 39.4486, "longitude": -91.0518, "precision": "approximate" }
+        },
+        "witnesses": { "count": 3, "types": ["Older sister 'Doris'", "Two young brothers"], "credibility_factors": ["Multiple family-member witnesses", "Daylight observation"] },
+        "description": "An older sister identified in Wikipedia as Doris reportedly observed a tall, dark, hair-covered bipedal creature from her kitchen window while her two younger brothers played in the backyard. The creature was reported to be carrying what appeared to be a dead dog and emitted a strong odor.",
+        "credibility": { "rating": "low", "factors": ["No physical evidence", "Brief encounter", "Multiple witnesses but one household"], "notes": "The single most widely-cited incident of the Momo flap." },
+        "sources": ["Wikipedia: Momo the Monster"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Regional Bigfoot variant",
+        "description": "Momo represents a localised expression of the broader Bigfoot tradition, possibly involving the same posited unknown North American hominid.",
+        "proponents": ["Cryptozoological writers including Loren Coleman"],
+        "evidence_cited": ["Continuity of description with other 1970s Bigfoot-type sightings"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification and 'monster flap'",
+        "description": "Skeptical commentators treat Momo as a classic localised 'monster flap' driven by a small number of initial sightings, media amplification, and likely misidentification of bears or hoax incidents.",
+        "proponents": ["Skeptical cryptozoology commentators"],
+        "evidence_cited": ["No physical evidence recovered", "Short-lived geographic and temporal cluster", "No further activity in following years"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
       "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "stories": [
+        "The 11 July 1972 backyard sighting in Louisiana, Missouri"
+      ],
+      "beliefs": "Momo is broadly treated in popular culture as a regional Bigfoot variant; locally it functions both as folk creature and as town mascot."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Coverage in regional cryptozoology surveys (Coleman and others)"
+      ],
+      "film_tv": [
+        "Momo: The Missouri Monster (2019 docudrama)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Six Flags St. Louis Momo-themed ride (1973-1994)",
+        "Louisiana, Missouri tourism and Momo events"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No active formal research; Momo appears in retrospective cryptozoology and Missouri folklore surveys."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-momo", "type": "website", "title": "Momo the Monster", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Momo_the_Monster", "accessed": "2026-05-07" }
+  ]
 }
